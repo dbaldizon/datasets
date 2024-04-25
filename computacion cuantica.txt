@@ -1,0 +1,231 @@
+Computación cuántica
+
+La computación cuántica o informática cuántica1​ es un paradigma de computación distinto al de la informática clásica. Se basa en el uso de cúbits (qubits en inglés), una especial combinación de unos y ceros. Los bits de la computación clásica pueden estar en 1 o en 0, pero solo un estado a la vez, en tanto que el cúbit (quantum bit) puede tener los dos estados simultáneamente. Esto da lugar a nuevas puertas lógicas que hacen posibles nuevos algoritmos.
+
+Una misma tarea puede tener diferente complejidad en computación clásica comparada con la que tiene en computación cuántica, lo que ha dado lugar a una gran expectación, ya que algunos problemas intratables pasan a ser tratables. Mientras que un computador clásico equivale a una máquina de Turing,2​ un ordenador cuántico equivale a una máquina de Turing cuántica.
+
+El enfoque de las computadoras cuánticas es resolver problemas de una manera fundamentalmente nueva. Los investigadores[¿quién?] esperan que con este nuevo enfoque de la computación puedan comenzar a explorarse algunos problemas que nunca podremos resolver de otra manera.
+
+La doctora Talia Gershon (directora de Estrategia de Investigación e Iniciativas de Crecimiento en IBM) describe la computación cuántica, de manera muy general, como una combinación entre tres factores: la superposición de giros, el entrelazamiento de dos objetos y la interferencia, la cual ayuda a controlar los estados cuánticos y amplificar los tipos de señales que están orientados hacia la respuesta correcta, y luego cancelar los tipos de señales que conducen a la respuesta incorrecta.
+
+A medida que evoluciona la tecnología y se reduce el tamaño de los transistores para producir microchips cada vez más pequeños, esto se traduce en mayor velocidad de proceso. Sin embargo, no se pueden hacer los chips infinitamente pequeños, ya que hay un límite tras el cual dejan de funcionar correctamente. Cuando se llega a la escala de nanómetros, los electrones se escapan de los canales por donde deben circular; a esto se le denomina: efecto túnel.
+
+Una partícula clásica, si se encuentra con un obstáculo, no puede atravesarlo y rebota. Pero con los electrones, que son partículas cuánticas y se comportan como ondas, existe la posibilidad de que una parte de ellos pueda atravesar las paredes si son lo suficientemente delgadas; de esta manera la señal puede pasar por canales donde no debería circular. Por ello, el chip deja de funcionar correctamente.
+
+La idea de computación cuántica surge en 1981, cuando Paul Benioff expuso su teoría para aprovechar las leyes cuánticas en el entorno de la informática. En vez de trabajar a nivel de voltajes eléctricos, se trabaja a nivel de cuanto. En la computación digital, un bit puede tomar solo uno de dos valores: 0 o 1. En cambio, en la computación cuántica intervienen las leyes de la mecánica cuántica, y la partícula puede estar en superposición coherente: puede ser 0, 1 y puede ser 1 y 0 a la vez (dos estados ortogonales de una partícula subatómica). Eso permite que se puedan realizar varias operaciones a la vez, según el número de cúbits.
+
+El número de cúbits indica la cantidad de bits que pueden estar en superposición. Con los bits convencionales, si se tenía un registro de tres bits, había ocho valores posibles y el registro solo podía tomar uno de esos valores. En cambio, si se tiene un vector de tres cúbits, la partícula puede tomar ocho valores distintos a la vez gracias a la superposición cuántica. Así, un vector de tres cúbits permitiría un total de ocho operaciones paralelas. Como cabe esperar, el número de operaciones es exponencial con respecto al número de cúbits.
+
+Para hacerse una idea del gran avance, un computador cuántico de 30 cúbits equivaldría a un procesador convencional de 10 teraflops (10 billones de operaciones en coma flotante por segundo), actualmente la supercomputadora convencional Summit tiene la capacidad de procesar 200 petaflops (200 mil billones).
+
+Funcionamiento
+Véase también: Cúbit
+En el modelo de cómputo tradicional el bit es la unidad mínima de información, el cual corresponde a un sistema binario, sólo puede tomar dos valores, representados por 0 y 1. Es posible usar y combinar más bits para representar mayor cantidad de información.
+
+Por el otro lado, en un sistema de cómputo cuántico la unidad mínima de información es el cúbit, el cual posee el principio de superposición cuántica, que permite al cúbit tomar diversos valores a la vez, puede ser 0 y 1, o bien es incluso posible que no sólo ocurra una superposición de ambos valores, sino que ocurra una superposición simultánea de todos los cúbits que se estén combinando, un conjunto de dos cúbits puede representar una superposición de valores: 00, 01, 10 y 11 a la vez.3​ El incremento de la capacidad de superposición, equivale a una mayor capacidad de representación de información.
+
+Entrelazamiento
+El entrelazamiento es una cualidad con la que dos cúbits que han sido entrelazados (en una correlación) pueden ser manipulados para hacer exactamente lo mismo, garantizando que se puedan realizar operaciones en paralelo o simultáneamente. A este principio se le conoce como paralelismo cuántico, y permite que la capacidad de realizar operaciones en paralelo crezcan de manera exponencial en relación con el número de cúbits con los que puede operar el computador.4​
+
+Interferencia cuántica
+Durante la manipulación de cúbits, se puede realizar una operación llamada interferencia cuántica, que aprovecha las propiedades de la superposición para reforzar o cancelar ciertos resultados, mejorando así la precisión y eficiencia de los cálculos. [cita requerida]
+
+Problemas
+Uno de los obstáculos principales para la computación cuántica es el problema de la decoherencia cuántica, que causa la pérdida del carácter unitario (y, más específicamente, la reversibilidad) de los pasos del algoritmo cuántico. Los tiempos de decoherencia para los sistemas candidatos, en particular el tiempo de relajación transversal (en la terminología usada en la tecnología de resonancia magnética nuclear e imaginería por resonancia magnética), está típicamente entre nanosegundos y segundos, a temperaturas bajas. Las tasas de error son típicamente proporcionales a la razón entre tiempo de operación frente a tiempo de decoherencia, de forma que cualquier operación debe ser completada en un tiempo mucho más corto que el tiempo de decoherencia. Si la tasa de error es lo bastante baja, es posible usar eficazmente la corrección de errores cuántica, con lo cual sí serían posibles tiempos de cálculo más largos que el tiempo de decoherencia y, en principio, arbitrariamente largos. Se cita con frecuencia una tasa de error límite de 10–4, por debajo de la cual se supone que sería posible la aplicación eficaz de la corrección de errores cuánticos.
+
+El doctor Steven Girvin (profesor de física en el Instituto Cuántico de Yale), cuyo enfoque principal es la corrección de errores cuánticos y tratar de comprender el concepto de tolerancia a fallas, dice que «todos creen saberlo cuando lo ven, pero nadie en el caso cuántico puede definirlo con precisión». Así mismo, menciona que en un sistema cuántico, cuando se observa la tolerancia a fallas o se realizan mediciones, el sistema puede cambiar de una manera que está fuera de control.
+
+Otro de los problemas principales es la escalabilidad, especialmente teniendo en cuenta el considerable incremento en cúbits necesarios para cualquier cálculo que implica la corrección de errores. Para ninguno de los sistemas actualmente propuestos es trivial un diseño capaz de manejar un número lo bastante alto de cúbits para resolver problemas computacionalmente interesantes hoy en día.
+
+Soporte físico
+Aún no se ha resuelto el problema sobre qué soporte físico sería el idóneo para la computación cuántica. Se ha definido una serie de condiciones que debe cumplir, conocida como la lista de Di Vincenzo, y hay varios candidatos actualmente.
+
+Ingenieros de Google trabajan (2018) en un procesador cuántico llamado "Bristlecone".
+
+Condiciones a cumplir
+El sistema ha de poder iniciarse, esto es, llevarse a un estado de partida conocido y controlado.
+Ha de ser posible hacer manipulaciones a los cúbits de forma controlada, con un conjunto de operaciones que forme un conjunto universal de puertas lógicas (para poder reproducir cualquier otra puerta lógica posible).
+El sistema ha de mantener su coherencia cuántica a lo largo del experimento.
+Ha de poder leerse el estado final del sistema, tras el cálculo.
+El sistema ha de ser escalable: tiene que haber una forma definida de aumentar el número de cúbits, para tratar con problemas de mayor coste computacional.
+Candidatos
+Véase también: Qubit#Representación física
+Espines nucleares de moléculas en disolución, en un aparato de RMN.
+Flujo eléctrico en SQUID.
+Iones suspendidos en vacío.
+Puntos cuánticos en superficies sólidas.
+Imanes moleculares en micro-SQUID.
+Computadora cuántica de Kane.
+Computación adiabática, basada en el teorema adiabático.
+Procesadores
+En 2004, científicos del Instituto de Física aplicada de la Universidad de Bonn publicaron resultados sobre un registro cuántico experimental. Para ello utilizaron átomos neutros que almacenan información cuántica, por lo que son llamados «cúbits» por analogía con los «bits». Su objetivo actual es construir una puerta cuántica, con lo cual se tendrían los elementos básicos que constituyen los procesadores, que son el corazón de los computadores actuales. Cabe destacar que un chip de tecnología VLSI contiene actualmente más de 100 000 puertas, de manera que su uso práctico todavía se presenta en un horizonte lejano.
+
+Transmisión de datos
+Científicos de los laboratorios Max Planck y Niels Bohr publicaron en la revista Nature en noviembre de 2004, resultados sobre la transmisión de información cuántica a distancias de 100 km usando la luz como vehículo,5​ obteniendo niveles de éxito del 70 %, lo que representa un nivel de calidad que permite utilizar protocolos de transmisión con autocorrección. Actualmente se trabaja en el diseño de repetidores, que permitirían transmitir información a distancias mayores a las ya alcanzadas.
+
+Programas de computación
+Algoritmos cuánticos
+Artículo principal: Algoritmo cuántico
+Los algoritmos cuánticos se basan en un margen de error conocido en las operaciones de base y trabajan reduciendo el margen de error a niveles exponencialmente pequeños, comparables al nivel de error de las máquinas actuales.
+
+Algoritmo de Shor
+Algoritmo de Grover
+Algoritmo de Deutsch-Jozsa
+Modelos
+Computadora cuántica de Benioff
+Computadora cuántica de Feynman
+Computadora cuántica de Deutsch
+Complejidad
+La clase de complejidad BQP estudia el costo de los algoritmos cuánticos con bajo margen de error.
+
+Problemas propuestos
+Se ha sugerido el uso de la informática cuántica como alternativa superior a la computación clásica para varios problemas, entre ellos:
+
+Factorización de números enteros
+Logaritmo discreto
+Simulación de sistemas cuánticos: Richard Feynman conjeturó en 1982 que los ordenadores cuánticos serían eficaces como simuladores universales de sistemas cuánticos, y en 1996 se demostró que la conjetura era correcta.6​7​
+Cronología
+
+Fotografía de un chip fabricado por D-Wave Systems Inc. diseñado para trabajar como procesador de 128 qubit.
+Años 1980
+A comienzos de la década de 1980, empezaron a surgir las primeras teorías que apuntaban a la posibilidad de realizar cálculos de naturaleza cuántica.
+
+1981 - Paul Benioff
+Las ideas esenciales de la computación cuántica surgieron de la mente de Paul Benioff, quien trabajaba en el Laboratorio Nacional Argonne, en Illinois (Estados Unidos). Imaginó un ordenador tradicional (máquina de Turing) que trabajaba con algunos principios de la mecánica cuántica.
+
+1981-1982 Richard Feynman
+Richard Feynman, físico del Instituto de Tecnología de California (Estados Unidos) y ganador del Premio Nobel en 1965, presentó una ponencia durante la Primera Conferencia sobre la Física de la Computación, realizada en el Instituto Tecnológico de Massachusetts (Estados Unidos). Su charla, titulada Simulación de la física con computadoras (Simulating physics with computers), proponía el uso de fenómenos cuánticos para realizar cálculos computacionales y exponía que, dada su naturaleza, algunos cálculos de gran complejidad se realizarían más rápidamente en un ordenador cuántico.
+
+1985 - David Deutsch
+David Deutsch, físico israelí de la Universidad de Oxford (Inglaterra) describió el primer computador cuántico universal, es decir, capaz de simular cualquier otro computador cuántico (principio de Church-Turing ampliado). De este modo, surgió la idea de que un ordenador cuántico podría ejecutar diferentes algoritmos cuánticos.[cita requerida]
+
+Años 1990
+En esta época la teoría empezó a plasmarse en la práctica: aparecieron los primeros algoritmos cuánticos, las primeras aplicaciones cuánticas y las primeras máquinas capaces de realizar cálculos cuánticos.
+
+1993 - Dan Simon
+
+Desde el departamento de investigación de Microsoft (Microsoft Research), surgió un problema teórico que demostraba la ventaja práctica que tendría un computador cuántico frente a uno tradicional.
+
+Comparó el modelo de probabilidad clásica con el modelo cuántico y sus ideas sirvieron como base para el desarrollo de algunos algoritmos futuros (como el de Shor).
+
+1993 - Charles Benett
+
+Este trabajador del centro de investigación de IBM en Nueva York descubrió el teletransporte cuántico y que abrió una nueva vía de investigación hacia el desarrollo de comunicaciones cuánticas.
+
+1994-1995 Peter Shor
+
+Este científico estadounidense de AT&T Bell Laboratories definió el algoritmo que lleva su nombre y que permite calcular los factores primos de números a una velocidad mucho mayor que en cualquier computador tradicional. Además su algoritmo permitiría romper muchos de los sistemas de criptografía utilizados actualmente. Su algoritmo sirvió para demostrar a una gran parte de la comunidad científica que observaba incrédula las posibilidades de la computación cuántica, que se trataba de un campo de investigación con un gran potencial. Además, un año más tarde, propuso un sistema de corrección de errores en el cálculo cuántico.
+
+1996 - Lov Grover
+
+Inventó el algoritmo de búsqueda de datos que lleva su nombre, algoritmo de Grover. Aunque la aceleración conseguida no es tan drástica como en los cálculos factoriales o en simulaciones físicas, su rango de aplicaciones es mucho mayor. Al igual que el resto de algoritmos cuánticos, se trata de un algoritmo probabilístico con un alto índice de acierto.
+
+1997 - Primeros experimentos
+
+En 1997 se iniciaron los primeros experimentos prácticos y se abrieron las puertas para empezar a ejecutar todos aquellos cálculos y experimentos que habían sido descritos teóricamente hasta entonces. El primer experimento de comunicación segura usando criptografía cuántica se realiza con éxito a una distancia de 23 km. Además se realiza el primer teletransporte cuántico de un fotón.
+
+1998-1999 Primeros cúbits
+
+Investigadores de Los Álamos y el Instituto Tecnológico de Massachusetts consiguen propagar el primer cúbit a través de una solución de aminoácidos. Supuso el primer paso para analizar la información que transporta un cúbit. Durante ese mismo año, nació la primera máquina de 2 cúbits, que fue presentada en la Universidad de Berkeley, California (EE. UU.). Un año más tarde, en 1999, en los laboratorios de IBM-Almaden, se creó la primera máquina de 3 cúbits y además fue capaz de ejecutar por primera vez el algoritmo de búsqueda de Grover.
+
+Año 2000 hasta ahora
+2000 - Continúan los progresos
+De nuevo IBM, dirigido por Isaac Chuang (Figura 4.1), creó un ordenador cuántico de 5 cúbits capaz de ejecutar un algoritmo de búsqueda de orden, que forma parte del algoritmo de Shor. Este algoritmo se ejecutaba en un simple paso cuando en un computador tradicional requeriría de numerosas iteraciones. Ese mismo año, científicos de Laboratorio Nacional de Los Álamos (EE. UU.) anunciaron el desarrollo de un ordenador cuántico de 7 cúbits. Utilizando un resonador magnético nuclear se consiguen aplicar pulsos electromagnéticos y permite emular la codificación en bits de los computadores tradicionales.
+
+2001 - El algoritmo de Shor ejecutado
+IBM y la Universidad de Stanford, consiguen ejecutar por primera vez el algoritmo de Shor en el primer computador cuántico de 7 cúbits desarrollado en Los Álamos. En el experimento se calcularon los factores primos de 15, dando el resultado correcto de 3 y 5 utilizando para ello 1018 moléculas, cada una de ellas con siete átomos.
+
+2005 - El primer Qbyte
+El Instituto de Óptica e Información Cuántica de la universidad de Innsbruck (Austria) anunció que sus científicos habían creado el primer qbyte, una serie de 8 cúbits utilizando trampas de iones.
+
+2006 - Mejoras en el control del cuanto
+Científicos en Waterloo y Massachusetts diseñan métodos para mejorar el control del cuanto y consiguen desarrollar un sistema de 12 cúbits. El control del cuanto se hace cada vez más complejo a medida que aumenta el número de cúbits empleados por los computadores.
+
+2007 - D-Wave
+La empresa canadiense D-Wave Systems había supuestamente presentado el 13 de febrero de 2007 en Silicon Valley, una primera computadora cuántica comercial de 16 cúbits de propósito general; luego la misma compañía admitió que tal máquina, llamada Orion, no es realmente una computadora cuántica, sino una clase de máquina de propósito general que usa algo de mecánica cuántica para resolver problemas.[cita requerida]
+
+2007 - Bus cuántico
+En septiembre de 2007, dos equipos de investigación estadounidenses, el National Institute of Standards (NIST) de Boulder y la Universidad de Yale en New Haven consiguieron unir componentes cuánticos a través de superconductores.
+
+De este modo aparece el primer bus cuántico, y este dispositivo además puede ser utilizado como memoria cuántica, reteniendo la información cuántica durante un corto espacio de tiempo antes de ser transferido al siguiente dispositivo.
+
+2008 - Almacenamiento
+Según la Fundación Nacional de Ciencias (NSF) de EE. UU., un equipo de científicos consiguió almacenar por primera vez un cúbit en el interior del núcleo de un átomo de fósforo, y pudieron hacer que la información permaneciera intacta durante 1,75 segundos. Este periodo puede ser expansible mediante métodos de corrección de errores, por lo que es un gran avance en el almacenamiento de información.
+
+2009 - Procesador cuántico de estado sólido
+El equipo de investigadores estadounidense dirigido por el profesor Robert Schoelkopf, de la Universidad de Yale, que ya en 2007 había desarrollado el Bus cuántico, crea ahora el primer procesador cuántico de estado sólido, mecanismo que se asemeja y funciona de forma similar a un microprocesador convencional, aunque con la capacidad de realizar solo unas pocas tareas muy simples, como operaciones aritméticas o búsquedas de datos.
+
+Para la comunicación en el dispositivo, esta se realiza mediante fotones que se desplazan sobre el bus cuántico, circuito electrónico que almacena y mide fotones de microondas, aumentando el tamaño de un átomo artificialmente.
+
+2011 - Primera computadora cuántica vendida
+La primera computadora cuántica comercial es vendida por la empresa D-Wave Systems, fundada en 1999, a Lockheed Martin por 10 millones de dólares.8​
+
+2012 - Avances en chips cuánticos
+IBM anuncia que ha creado un chip lo suficientemente estable como para permitir que la informática cuántica llegue a hogares y empresas. Se estima que en unos 10 o 12 años se puedan estar comercializando los primeros sistemas cuánticos.9​
+
+2013 - Computadora cuántica más rápida que un computador convencional
+En abril la empresa D-Wave Systems lanza el nuevo computador cuántico D-Wave Two el cual es 500 000 veces superior a su antecesor D-Wave One, con un poder de cálculo de 439 cúbits. Realmente el D-Wave Two tuvo graves problemas finalmente, dado que no tenía las mejoras de procesamiento teóricas frente al D-Wave One.10​ Este fue comparado con un computador basado en el microprocesador Intel Xeon E5-2690 a 2.9 GHz, teniendo en cuenta que lo obteniendo, es decir, el resultado en promedio de 4000 veces superior.11​
+
+En 2016, Intel trabaja en el dominio del silicio por el primer ordenador cuántico12​
+
+En mayo de 2017, IBM presenta un nuevo procesador cuántico comercial, el más potente hasta la fecha13​ de 17 cúbits.14​
+
+2019 - Primer ordenador cuántico para uso comercial
+En el CES de 2019, IBM presentó el IBM Q System One, el primer ordenador cuántico para uso comercial. En el mismo se combina tanto la computación cuántica como «tradicional» para ofrecer un sistema de 20 qubits para su utilización en investigaciones y grandes cálculos.[1]
+
+El 18 de septiembre, IBM anunció que lanzará pronto su decimocuarto ordenador cuántico de 53 qubits, el más grande y potente de forma comercial hasta la fecha.15​
+
+El 20 de septiembre, el Financial Times publicó por primera vez «Google afirma haber alcanzado la supremacía cuántica».16​
+
+2022 - Procesador cuántico de 433 bits cuánticos o cúbits
+El 9 de noviembre de 2022, en el marco del IBM Quantum Summit, presentó Osprey, su procesador cuántico de 433 cúbits.[2]
+
+Impacto sobre la seguridad de las comunicaciones
+Es un hecho que el cómputo cuántico revolucionará de manera exponencial diversos sectores, entre ellos destacan las telecomunicaciones; lo cual afectará también la criptografía y la seguridad de las comunicaciones en internet. Actualmente hacemos uso de la criptografía asimétrica en cada uno de los sitios web. Pues los dos algoritmos del cifrado asimétrico más usados son RSA, cuya complejidad de factorización es de números grandes, y la criptografía basada en la estructura matemática de las curvas elípticas (ECC). Surge como problema que estos métodos de criptografía serían fácilmente descifrables para una computadora cuántica. Pues pueden desarrollarse algoritmos que son capaces de aprovechar el paralelismo cuántico para resolver dichos problemas matemáticos complejos.
+
+Repercusiones sobre la privacidad en internet
+El cómputo cuántico no acabará con la privacidad en internet, sin embargo, sí afectará y hará obsoletos los principales métodos de cifrado actuales, como el RSA y ECC.
+
+Actualmente se están investigando nuevos esquemas de cifrado asimétrico que garanticen la privacidad en las comunicaciones y que no sean vulnerables a la computación cuántica. Dichas investigaciones están agrupadas en 4 grupos principales:
+
+Criptografía asimétrica basada en la teoría de redes o lattices, en vez de utilizar un problema de factorización de números se usan los problemas matemáticos de complejidad NP-Completos de encontrar el vector más corto (SVP) o encontrar el vector más cercano (CVP). Algoritmos ya desarrollados sobre esta base: «Goldreich-Goldwasser-Halevi (GGH)»17​ y «Number Theory Research Unit (NTRU)».18​4​
+Criptografía multivariable, basada en polinomios multivariables en un cuerpo finito. Algoritmos ya desarrollados sobre esta base: «Unbalanced Oil and Vinegar»19​
+Criptografía basada en códigos de corrección de errores. Algoritmos ya desarrollados sobre esta base: «McElice».20​
+Esquemas de cifrados de firmas digitales basados en resúmenes o hashes. Algoritmos ya desarrollados sobre esta base: «Lamport» y «Merkle»
+Posibilidades que ofrece la criptografía cuántica
+Gracias a las características que posee la mecánica cuántica y al principio de incertidumbre de Heisenberg, la criptografía cuántica puede garantizar confidencialidad absoluta al posibilitar el intercambio seguro de claves entre 2 entes, a pesar de que el canal de comunicaciones este siendo escuchado por un externo. Ya que la interacción de este intruso modificaría la información transmitida. Esto es aprovechado por algoritmos que intercambian claves cuánticas; para garantizar (por probabilidad) que solo el emisor y el receptor conocen la clave.4​
+
+Cuestiones éticas
+Como se mencionó anteriormente, inicialmente la iniciativa en el avance de la computación cuántica la tenían las Universidades, siendo sustituido en gran parte por empresas privadas. Por primera vez estamos llegando a ver un nivel de avance tecnológico espectacular en manos privadas en el mundo de la computación cuántica.21​ Esto supone un peligro ético con respecto a cómo va a ser utilizado, con qué objetivos, con que supervisión y con qué sesgos.
+
+Con el fin de utilizar de manera efectiva la computación cuántica, es crucial que los expertos y los gobiernos aborden las cuestiones éticas y establezcan directrices comunes.22​ Estas directrices éticas servirán como base para desarrollar una legislación adecuada que regule el uso responsable de la computación cuántica, asegurando así un entorno ético y seguro para su aplicación.
+
+Existen muchos campos que se beneficiarán con el uso de la computación cuántica, como la química cuántica, la inteligencia artificial, la ciberseguridad y todos los procesos de optimización, no obstante, en manos equivocadas, esto supondría un peligro en lugar de un avance,23​ por lo que es fundamental reflexionar sobre estos retos para garantizar un uso responsable y beneficioso de estas tecnologías.
+
+Privacidad y seguridad
+La capacidad de la computación cuántica para romper la criptografía convencional plantea dilemas éticos en cuanto a la protección de la privacidad individual y la seguridad colectiva. Esto plantea preocupaciones sobre la seguridad de los datos personales y confidenciales, ya que la información que actualmente consideramos segura podría volverse vulnerable a los ataques cuánticos. Los avances en la computación cuántica también podrían facilitar la decodificación de comunicaciones cifradas previamente, lo que podría tener implicaciones en la privacidad de las personas y en el espionaje cibernético. Por este motivo ya se están investigando nuevos esquemas de cifrado simétrico.
+
+Desigualdad y brecha tecnológica
+El desarrollo y mantenimiento de la computación cuántica es una tarea compleja y costosa. Esto podría generar una brecha tecnológica entre aquellos que tienen acceso a esta tecnología y aquellos que no. Si únicamente algunos países, empresas o individuos cuentan con acceso a la computación cuántica, existe el riesgo de ampliar la desigualdad tecnológica y económica en el mundo. Esta situación podría tener impactos éticos negativos, como profundizar las divisiones entre ricos y pobres y limitar las oportunidades para aquellos que no tienen acceso a esta tecnología.24​
+
+Impacto ambiental
+La computación cuántica requiere una gran cantidad de recursos, incluida energía, para su funcionamiento. Los sistemas de computación cuántica necesitan enfriarse a temperaturas extremadamente bajas, lo que consume una cantidad significativa de energía. Esto plantea preocupaciones en relación con el impacto ambiental de la computación cuántica a gran escala y su posible contribución a los desafíos del cambio climático y la sostenibilidad.25​
+
+Ética en la inteligencia artificial cuántica
+La intersección entre la inteligencia artificial (IA) y la computación cuántica también plantea desafíos éticos adicionales. A medida que se desarrollen algoritmos de IA cuántica más potentes, es crucial considerar aspectos como la responsabilidad y el control humano sobre las decisiones tomadas por sistemas de IA cuántica, la explicabilidad de los resultados generados por dichos sistemas y las posibles implicaciones de su mal uso.
+
+Genoma humano y guerra tecnológica
+El avance de la computación cuántica plantea preocupaciones éticas sobre la manipulación nociva del genoma humano y para la creación de nuevos materiales para la guerra.26​
+
+Es importante abordar estas preocupaciones desde una perspectiva ética y asegurar que el desarrollo y la implementación de estas tecnologías se realicen de manera responsable y equitativa.
+
+Véase también
+Computación basada en ADN
+Criptografía cuántica
+Electrónica molecular
+Entrelazamiento cuántico
+Fotónica
+Intelligence Advanced Research Projects Activity (IARPA)
+Simulador cuántico universal
+Teleportación cuántica
+Información cuántica con variables continuas
